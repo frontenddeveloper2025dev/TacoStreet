@@ -19,7 +19,7 @@ export default function PromotionSection() {
           <div className="bg-white rounded-3xl p-8 border-4 border-taco-red shadow-lg">
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <div className="flex-1">
-                <div className="bg-taco-red text-white rounded-xl px-6 py-2 inline-block mb-4 font-bold text-lg">
+                <div className="bg-white text-taco-red border-2 border-taco-red rounded-xl px-6 py-2 inline-block mb-4 font-bold text-lg">
                   OFERTA ESPECIAL
                 </div>
                 <h3 className="font-display text-5xl md:text-7xl text-taco-red mb-4">2X1</h3>
