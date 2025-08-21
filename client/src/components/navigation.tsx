@@ -13,7 +13,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-taco-black/95 backdrop-blur-sm z-50 border-b-2 border-taco-red">
+    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b-2 border-taco-red shadow-lg">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="font-display text-2xl text-taco-red neon-glow">
@@ -25,19 +25,19 @@ export default function Navigation() {
           <div className="hidden md:flex space-x-6">
             <button 
               onClick={() => scrollToSection('menu')} 
-              className="hover:text-taco-red transition-colors font-medium"
+              className="text-gray-800 hover:text-taco-red transition-colors font-medium"
             >
               Menú
             </button>
             <button 
               onClick={() => scrollToSection('promociones')} 
-              className="hover:text-taco-red transition-colors font-medium"
+              className="text-gray-800 hover:text-taco-red transition-colors font-medium"
             >
               Promociones
             </button>
             <button 
               onClick={() => scrollToSection('contacto')} 
-              className="hover:text-taco-red transition-colors font-medium"
+              className="text-gray-800 hover:text-taco-red transition-colors font-medium"
             >
               Contacto
             </button>
@@ -47,7 +47,7 @@ export default function Navigation() {
           <div className="md:hidden">
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-white hover:text-taco-red transition-colors"
+              className="text-gray-800 hover:text-taco-red transition-colors"
             >
               <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'} text-xl`}></i>
             </button>
@@ -64,23 +64,23 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-4 border-t border-gray-700">
+          <div className="md:hidden mt-4 py-4 border-t border-gray-300">
             <div className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('menu')} 
-                className="text-left hover:text-taco-red transition-colors font-medium"
+                className="text-left text-gray-800 hover:text-taco-red transition-colors font-medium"
               >
                 Menú
               </button>
               <button 
                 onClick={() => scrollToSection('promociones')} 
-                className="text-left hover:text-taco-red transition-colors font-medium"
+                className="text-left text-gray-800 hover:text-taco-red transition-colors font-medium"
               >
                 Promociones
               </button>
               <button 
                 onClick={() => scrollToSection('contacto')} 
-                className="text-left hover:text-taco-red transition-colors font-medium"
+                className="text-left text-gray-800 hover:text-taco-red transition-colors font-medium"
               >
                 Contacto
               </button>

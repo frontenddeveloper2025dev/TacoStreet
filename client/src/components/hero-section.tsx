@@ -13,8 +13,8 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center street-texture pt-20">
-      <div className="absolute inset-0 bg-gradient-to-br from-taco-black/90 via-taco-black/70 to-transparent"></div>
+    <section className="relative min-h-screen flex items-center bg-white pt-20">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50/50 via-white to-gray-100/30"></div>
       
       {/* Background taco pattern */}
       <div className="absolute inset-0 opacity-5">
@@ -53,7 +53,7 @@ export default function HeroSection() {
               <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-taco-red neon-glow leading-tight">
                 TACOS
               </h1>
-              <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-white -mt-2">
+              <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-gray-800 -mt-2">
                 DE LOS PINOS
               </h2>
             </div>
@@ -63,7 +63,7 @@ export default function HeroSection() {
               <div className="text-4xl floating">🌮</div>
               <div>
                 <p className="text-taco-yellow font-bold text-xl">LOS MEJORES</p>
-                <p className="text-white font-display text-2xl">TACOS DEL BARRIO</p>
+                <p className="text-gray-800 font-display text-2xl">TACOS DEL BARRIO</p>
               </div>
             </div>
           </div>

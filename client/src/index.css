@@ -122,6 +122,6 @@
   }
 
   body {
-    @apply font-sans antialiased bg-taco-black text-white overflow-x-hidden;
+    @apply font-sans antialiased bg-white text-gray-900 overflow-x-hidden;
   }
 }

@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-taco-black py-8 border-t-2 border-taco-red">
+    <footer className="bg-gray-800 py-8 border-t-2 border-taco-red">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">

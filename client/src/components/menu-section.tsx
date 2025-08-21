@@ -49,13 +49,13 @@ export default function MenuSection() {
   ];
 
   return (
-    <section id="menu" className="py-20 bg-taco-black street-texture">
+    <section id="menu" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-display text-4xl md:text-6xl text-taco-red neon-glow mb-4">
             MENÚ
           </h2>
-          <p className="text-xl text-gray-300">Sabores auténticos de la calle</p>
+          <p className="text-xl text-gray-600">Sabores auténticos de la calle</p>
         </div>
 
         {/* Menu Image */}
@@ -69,7 +69,7 @@ export default function MenuSection() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {menuCategories.map((category, index) => (
-            <div key={index} className={`bg-street-gray rounded-2xl p-6 border-2 border-${category.color} card-hover`}>
+            <div key={index} className={`bg-gray-50 rounded-2xl p-6 border-2 border-${category.color} card-hover`}>
               <div className="flex items-center mb-6">
                 <div className={`bg-${category.color} rounded-full p-3 mr-4`}>
                   <i className={`${category.icon} text-white text-xl`}></i>
@@ -79,12 +79,12 @@ export default function MenuSection() {
               
               <div className="space-y-4">
                 {category.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="flex justify-between items-center p-3 rounded-lg menu-item border border-gray-700">
+                  <div key={itemIndex} className="flex justify-between items-center p-3 rounded-lg menu-item border border-gray-300">
                     <div>
-                      <p className="font-bold text-white">{item.name}</p>
-                      <p className="text-gray-400 text-sm">{item.description}</p>
+                      <p className="font-bold text-gray-800">{item.name}</p>
+                      <p className="text-gray-600 text-sm">{item.description}</p>
                     </div>
-                    <span className="text-taco-yellow font-bold">{item.price}</span>
+                    <span className="text-taco-red font-bold">{item.price}</span>
                   </div>
                 ))}
               </div>
