@@ -13,7 +13,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b-2 border-taco-red shadow-lg">
+    <nav className="fixed top-0 w-full bg-white z-50 border-b-2 border-taco-red shadow-lg">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="font-display text-2xl text-taco-red">

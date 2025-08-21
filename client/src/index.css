@@ -90,9 +90,7 @@
     radial-gradient(circle at 40% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
 }
 
-.neon-glow {
-  text-shadow: 0 0 5px var(--taco-red), 0 0 10px var(--taco-red), 0 0 15px var(--taco-red);
-}
+
 
 
 
