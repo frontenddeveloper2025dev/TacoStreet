@@ -1,3 +1,5 @@
+import promoImage from "@assets/Tacos_1755737289519.png";
+
 export default function PromotionSection() {
   const orderPromotion = () => {
     window.open('https://wa.me/5512345678?text=¡Hola! Me interesa la promoción 2x1 en tacos al pastor', '_blank');
@@ -34,17 +36,12 @@ export default function PromotionSection() {
               </div>
               
               <div className="flex-1 relative">
-                <div className="relative">
-                  <div className="w-full max-w-md mx-auto bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl p-8 floating">
-                    <div className="text-center">
-                      <div className="text-6xl mb-4">🌮</div>
-                      <div className="text-2xl font-bold text-white mb-2">AL PASTOR</div>
-                      <div className="text-orange-200">Con piña y cilantro</div>
-                    </div>
-                  </div>
-                  <div className="absolute -top-4 -right-4 bg-taco-yellow text-taco-black rounded-full w-16 h-16 flex items-center justify-center font-bold text-2xl">
-                    🔥
-                  </div>
+                <div className="relative flex justify-center">
+                  <img 
+                    src={promoImage} 
+                    alt="Promoción 2x1 Tacos al Pastor - Pastor, Bistec, Chorizo, Suadero" 
+                    className="w-full max-w-sm h-auto floating"
+                  />
                 </div>
               </div>
             </div>

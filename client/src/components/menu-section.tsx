@@ -1,3 +1,5 @@
+import menuImage from "@assets/carta_1755737282272.png";
+
 export default function MenuSection() {
   const menuCategories = [
     {
@@ -54,6 +56,15 @@ export default function MenuSection() {
             MENÚ
           </h2>
           <p className="text-xl text-gray-300">Sabores auténticos de la calle</p>
+        </div>
+
+        {/* Menu Image */}
+        <div className="flex justify-center mb-12">
+          <img 
+            src={menuImage} 
+            alt="Menú de Tacos - Tacos, Tortas, Bebidas y Extras" 
+            className="w-full max-w-2xl h-auto rounded-3xl border-4 border-taco-red card-hover"
+          />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">

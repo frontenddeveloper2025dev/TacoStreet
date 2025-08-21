@@ -1,3 +1,5 @@
+import logoImage from "@assets/LOS PINOS_1755737259519.png";
+
 export default function HeroSection() {
   const scrollToMenu = () => {
     const element = document.getElementById('menu');
@@ -33,15 +35,28 @@ export default function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl">
-          <div className="mb-8">
-            <h1 className="font-display text-6xl md:text-8xl lg:text-9xl text-taco-red neon-glow leading-tight">
-              TACOS
-            </h1>
-            <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-white -mt-4">
-              DE LOS PINOS
-            </h2>
+        <div className="grid lg:grid-cols-2 gap-8 items-center max-w-6xl">
+          {/* Logo Section */}
+          <div className="flex justify-center lg:order-2">
+            <div className="relative">
+              <img 
+                src={logoImage} 
+                alt="Tacos de Los Pinos - Los Mejores Tacos del Barrio" 
+                className="w-full max-w-md h-auto floating"
+              />
+            </div>
           </div>
+
+          {/* Text Section */}
+          <div className="lg:order-1">
+            <div className="mb-8">
+              <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-taco-red neon-glow leading-tight">
+                TACOS
+              </h1>
+              <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-white -mt-2">
+                DE LOS PINOS
+              </h2>
+            </div>
           
           <div className="bg-taco-red/20 border-2 border-taco-red rounded-2xl p-6 mb-8 card-hover inline-block">
             <div className="flex items-center space-x-4">
@@ -66,6 +81,7 @@ export default function HeroSection() {
             >
               <i className="fas fa-map-marker-alt mr-2"></i>Ubicación
             </button>
+          </div>
           </div>
         </div>
       </div>
