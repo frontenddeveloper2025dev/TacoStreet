@@ -9,10 +9,10 @@ export default function PromotionSection() {
     <section id="promociones" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-display text-4xl md:text-6xl text-taco-red neon-glow mb-4">
+          <h2 className="font-display text-4xl md:text-6xl text-taco-red mb-4">
             ¡PROMOCIONES!
           </h2>
-          <p className="text-xl text-gray-300">Ofertas que te van a encantar</p>
+          <p className="text-xl text-gray-600">Ofertas que te van a encantar</p>
         </div>
 
         <div className="max-w-4xl mx-auto">

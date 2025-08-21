@@ -52,7 +52,7 @@ export default function MenuSection() {
     <section id="menu" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-display text-4xl md:text-6xl text-taco-red neon-glow mb-4">
+          <h2 className="font-display text-4xl md:text-6xl text-taco-red mb-4">
             MENÚ
           </h2>
           <p className="text-xl text-gray-600">Sabores auténticos de la calle</p>

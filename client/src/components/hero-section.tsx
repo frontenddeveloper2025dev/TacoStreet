@@ -50,7 +50,7 @@ export default function HeroSection() {
           {/* Text Section */}
           <div className="lg:order-1">
             <div className="mb-8">
-              <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-taco-red neon-glow leading-tight">
+              <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-taco-red leading-tight">
                 TACOS
               </h1>
               <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-gray-800 -mt-2">
