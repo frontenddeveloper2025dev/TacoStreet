@@ -29,7 +29,7 @@ export default function PromotionSection() {
                 </p>
                 <button 
                   onClick={orderPromotion}
-                  className="bg-taco-red text-white px-8 py-3 rounded-xl font-bold text-lg hover:bg-red-600 transition-colors"
+                  className="bg-taco-red text-white px-8 py-3 rounded-xl font-bold text-lg hover:bg-red-600"
                 >
                   <i className="fas fa-fire mr-2"></i>¡Quiero Mi 2x1!
                 </button>

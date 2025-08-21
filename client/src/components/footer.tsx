@@ -23,21 +23,21 @@ export default function Footer() {
           <div className="flex space-x-6">
             <button 
               onClick={openFacebook}
-              className="text-gray-400 hover:text-taco-red transition-colors"
+              className="text-gray-400 hover:text-taco-red"
               aria-label="Facebook"
             >
               <i className="fab fa-facebook text-2xl"></i>
             </button>
             <button 
               onClick={openInstagram}
-              className="text-gray-400 hover:text-taco-red transition-colors"
+              className="text-gray-400 hover:text-taco-red"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram text-2xl"></i>
             </button>
             <button 
               onClick={openWhatsApp}
-              className="text-gray-400 hover:text-taco-red transition-colors"
+              className="text-gray-400 hover:text-taco-red"
               aria-label="WhatsApp"
             >
               <i className="fab fa-whatsapp text-2xl"></i>

@@ -34,7 +34,7 @@ export default function ContactSection() {
             <p className="text-gray-600 mb-4">Ciudad de México</p>
             <button 
               onClick={openGoogleMaps}
-              className="bg-taco-red text-white px-4 py-2 rounded-lg font-bold hover:bg-red-600 transition-colors"
+              className="bg-taco-red text-white px-4 py-2 rounded-lg font-bold hover:bg-red-600"
             >
               Ver en Maps
             </button>
@@ -61,7 +61,7 @@ export default function ContactSection() {
             <p className="text-gray-800 mb-2">📞 55-8765-4321</p>
             <button 
               onClick={openWhatsApp}
-              className="bg-taco-green text-white px-6 py-2 rounded-lg font-bold hover:bg-green-600 transition-colors mt-2"
+              className="bg-taco-green text-white px-6 py-2 rounded-lg font-bold hover:bg-green-600 mt-2"
             >
               <i className="fab fa-whatsapp mr-2"></i>WhatsApp
             </button>
@@ -76,13 +76,13 @@ export default function ContactSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={makeCall}
-                className="bg-white text-taco-red px-8 py-3 rounded-xl font-bold text-lg hover:bg-gray-100 transition-colors"
+                className="bg-white text-taco-red px-8 py-3 rounded-xl font-bold text-lg hover:bg-gray-100"
               >
                 <i className="fas fa-phone mr-2"></i>Llamar Ahora
               </button>
               <button 
                 onClick={openWhatsApp}
-                className="border-2 border-white text-white hover:bg-white hover:text-taco-red px-8 py-3 rounded-xl font-bold text-lg transition-colors"
+                className="border-2 border-white text-white hover:bg-white hover:text-taco-red px-8 py-3 rounded-xl font-bold text-lg"
               >
                 <i className="fab fa-whatsapp mr-2"></i>WhatsApp
               </button>

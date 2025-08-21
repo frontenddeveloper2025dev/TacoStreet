@@ -25,19 +25,19 @@ export default function Navigation() {
           <div className="hidden md:flex space-x-6">
             <button 
               onClick={() => scrollToSection('menu')} 
-              className="text-gray-800 hover:text-taco-red transition-colors font-medium"
+              className="text-gray-800 hover:text-taco-red font-medium"
             >
               Menú
             </button>
             <button 
               onClick={() => scrollToSection('promociones')} 
-              className="text-gray-800 hover:text-taco-red transition-colors font-medium"
+              className="text-gray-800 hover:text-taco-red font-medium"
             >
               Promociones
             </button>
             <button 
               onClick={() => scrollToSection('contacto')} 
-              className="text-gray-800 hover:text-taco-red transition-colors font-medium"
+              className="text-gray-800 hover:text-taco-red font-medium"
             >
               Contacto
             </button>
@@ -47,7 +47,7 @@ export default function Navigation() {
           <div className="md:hidden">
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-800 hover:text-taco-red transition-colors"
+              className="text-gray-800 hover:text-taco-red"
             >
               <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'} text-xl`}></i>
             </button>
@@ -68,25 +68,25 @@ export default function Navigation() {
             <div className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('menu')} 
-                className="text-left text-gray-800 hover:text-taco-red transition-colors font-medium"
+                className="text-left text-gray-800 hover:text-taco-red font-medium"
               >
                 Menú
               </button>
               <button 
                 onClick={() => scrollToSection('promociones')} 
-                className="text-left text-gray-800 hover:text-taco-red transition-colors font-medium"
+                className="text-left text-gray-800 hover:text-taco-red font-medium"
               >
                 Promociones
               </button>
               <button 
                 onClick={() => scrollToSection('contacto')} 
-                className="text-left text-gray-800 hover:text-taco-red transition-colors font-medium"
+                className="text-left text-gray-800 hover:text-taco-red font-medium"
               >
                 Contacto
               </button>
               <button 
                 onClick={() => window.open('tel:5512345678')}
-                className="bg-taco-red hover:bg-red-600 px-4 py-2 rounded-lg font-bold transition-colors text-left"
+                className="bg-taco-red hover:bg-red-600 px-4 py-2 rounded-lg font-bold text-left"
               >
                 <i className="fas fa-phone mr-2"></i>Ordenar
               </button>

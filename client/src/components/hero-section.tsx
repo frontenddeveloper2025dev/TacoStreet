@@ -71,13 +71,13 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4">
             <button 
               onClick={scrollToMenu}
-              className="bg-taco-red hover:bg-red-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105"
+              className="bg-taco-red hover:bg-red-600 text-white px-8 py-4 rounded-xl font-bold text-lg"
             >
               <i className="fas fa-utensils mr-2"></i>Ver Menú
             </button>
             <button 
               onClick={openGoogleMaps}
-              className="border-2 border-taco-yellow text-taco-yellow hover:bg-taco-yellow hover:text-taco-black px-8 py-4 rounded-xl font-bold text-lg transition-all"
+              className="border-2 border-taco-yellow text-taco-yellow hover:bg-taco-yellow hover:text-taco-black px-8 py-4 rounded-xl font-bold text-lg"
             >
               <i className="fas fa-map-marker-alt mr-2"></i>Ubicación
             </button>
