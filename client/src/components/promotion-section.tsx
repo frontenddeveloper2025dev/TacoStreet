@@ -40,7 +40,7 @@ export default function PromotionSection() {
                   <img 
                     src={promoImage} 
                     alt="Promoción 2x1 Tacos al Pastor - Pastor, Bistec, Chorizo, Suadero" 
-                    className="w-full max-w-sm h-auto"
+                    className="w-full max-w-lg h-auto"
                   />
                 </div>
               </div>
