@@ -16,8 +16,8 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full bg-white z-50 border-b-2 border-taco-red shadow-lg">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="font-display text-2xl text-taco-red">
-            <i className="fas fa-pepper-hot mr-2"></i>
+          <div className="font-display text-lg sm:text-xl lg:text-2xl text-taco-red">
+            <i className="fas fa-pepper-hot mr-1 sm:mr-2"></i>
             Los Pinos
           </div>
           
@@ -56,9 +56,9 @@ export default function Navigation() {
           {/* Order Button */}
           <button 
             onClick={() => window.open('tel:5512345678')}
-            className="hidden md:block bg-taco-red hover:bg-red-600 px-4 py-2 rounded-lg font-bold transition-colors"
+            className="hidden md:block bg-taco-red hover:bg-red-600 text-white px-3 lg:px-4 py-2 rounded-lg font-bold text-sm lg:text-base"
           >
-            <i className="fas fa-phone mr-2"></i>Ordenar
+            <i className="fas fa-phone mr-1 lg:mr-2"></i>Ordenar
           </button>
         </div>
 

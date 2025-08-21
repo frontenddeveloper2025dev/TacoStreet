@@ -35,49 +35,49 @@ export default function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 items-center max-w-6xl">
+        <div className="grid lg:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
           {/* Logo Section */}
           <div className="flex justify-center lg:order-2">
             <div className="relative">
               <img 
                 src={logoImage} 
                 alt="Tacos de Los Pinos - Los Mejores Tacos del Barrio" 
-                className="w-full max-w-md h-auto"
+                className="w-full max-w-sm sm:max-w-md lg:max-w-lg h-auto"
               />
             </div>
           </div>
 
           {/* Text Section */}
-          <div className="lg:order-1">
-            <div className="mb-8">
-              <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-taco-red leading-tight">
+          <div className="lg:order-1 text-center lg:text-left">
+            <div className="mb-6 sm:mb-8">
+              <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-taco-red leading-tight">
                 TACOS
               </h1>
-              <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-gray-800 -mt-2">
+              <h2 className="font-display text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-gray-800 -mt-1 sm:-mt-2">
                 DE LOS PINOS
               </h2>
             </div>
           
-          <div className="bg-taco-red/20 border-2 border-taco-red rounded-2xl p-6 mb-8 inline-block">
-            <div className="flex items-center space-x-4">
-              <div className="text-4xl">🌮</div>
-              <div>
-                <p className="text-taco-yellow font-bold text-xl">LOS MEJORES</p>
-                <p className="text-gray-800 font-display text-2xl">TACOS DEL BARRIO</p>
+          <div className="bg-taco-red/20 border-2 border-taco-red rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 sm:mb-8 inline-block w-full sm:w-auto">
+            <div className="flex items-center justify-center lg:justify-start space-x-3 sm:space-x-4">
+              <div className="text-3xl sm:text-4xl">🌮</div>
+              <div className="text-center lg:text-left">
+                <p className="text-taco-yellow font-bold text-lg sm:text-xl">LOS MEJORES</p>
+                <p className="text-gray-800 font-display text-xl sm:text-2xl">TACOS DEL BARRIO</p>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto">
             <button 
               onClick={scrollToMenu}
-              className="bg-taco-red hover:bg-red-600 text-white px-8 py-4 rounded-xl font-bold text-lg"
+              className="bg-taco-red hover:bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl font-bold text-base sm:text-lg w-full sm:w-auto"
             >
               <i className="fas fa-utensils mr-2"></i>Ver Menú
             </button>
             <button 
               onClick={openGoogleMaps}
-              className="border-2 border-taco-yellow text-taco-yellow hover:bg-taco-yellow hover:text-taco-black px-8 py-4 rounded-xl font-bold text-lg"
+              className="border-2 border-taco-yellow text-taco-yellow hover:bg-taco-yellow hover:text-taco-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg sm:rounded-xl font-bold text-base sm:text-lg w-full sm:w-auto"
             >
               <i className="fas fa-map-marker-alt mr-2"></i>Ubicación
             </button>

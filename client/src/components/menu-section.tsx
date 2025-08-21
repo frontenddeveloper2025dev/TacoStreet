@@ -59,32 +59,32 @@ export default function MenuSection() {
         </div>
 
         {/* Menu Image */}
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-8 sm:mb-12">
           <img 
             src={menuImage} 
             alt="Menú de Tacos - Tacos, Tortas, Bebidas y Extras" 
-            className="w-full max-w-2xl h-auto rounded-3xl border-4 border-taco-red card-hover"
+            className="w-full max-w-sm sm:max-w-xl lg:max-w-2xl h-auto rounded-2xl sm:rounded-3xl border-3 sm:border-4 border-taco-red"
           />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {menuCategories.map((category, index) => (
-            <div key={index} className={`bg-gray-50 rounded-2xl p-6 border-2 border-${category.color}`}>
-              <div className="flex items-center mb-6">
-                <div className={`bg-${category.color} rounded-full p-3 mr-4`}>
-                  <i className={`${category.icon} text-white text-xl`}></i>
+            <div key={index} className={`bg-gray-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 border-2 border-${category.color}`}>
+              <div className="flex items-center mb-4 sm:mb-6">
+                <div className={`bg-${category.color} rounded-full p-2 sm:p-3 mr-3 sm:mr-4`}>
+                  <i className={`${category.icon} text-white text-lg sm:text-xl`}></i>
                 </div>
-                <h3 className={`font-display text-3xl text-${category.color}`}>{category.title}</h3>
+                <h3 className={`font-display text-2xl sm:text-3xl text-${category.color}`}>{category.title}</h3>
               </div>
               
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 {category.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="flex justify-between items-center p-3 rounded-lg menu-item border border-gray-300">
-                    <div>
-                      <p className="font-bold text-gray-800">{item.name}</p>
-                      <p className="text-gray-600 text-sm">{item.description}</p>
+                  <div key={itemIndex} className="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 rounded-lg border border-gray-300 gap-2 sm:gap-0">
+                    <div className="flex-1">
+                      <p className="font-bold text-gray-800 text-sm sm:text-base">{item.name}</p>
+                      <p className="text-gray-600 text-xs sm:text-sm">{item.description}</p>
                     </div>
-                    <span className="text-taco-red font-bold">{item.price}</span>
+                    <span className="text-taco-red font-bold text-base sm:text-lg self-start sm:self-center">{item.price}</span>
                   </div>
                 ))}
               </div>
