@@ -97,6 +97,8 @@
 @layer base {
   * {
     @apply border-border;
+    animation: none !important;
+    transition: none !important;
   }
 
   body {
