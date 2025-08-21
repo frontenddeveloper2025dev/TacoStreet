@@ -69,7 +69,7 @@ export default function MenuSection() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {menuCategories.map((category, index) => (
-            <div key={index} className={`bg-gray-50 rounded-2xl p-6 border-2 border-${category.color} card-hover`}>
+            <div key={index} className={`bg-gray-50 rounded-2xl p-6 border-2 border-${category.color}`}>
               <div className="flex items-center mb-6">
                 <div className={`bg-${category.color} rounded-full p-3 mr-4`}>
                   <i className={`${category.icon} text-white text-xl`}></i>

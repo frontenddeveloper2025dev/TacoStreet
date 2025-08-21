@@ -42,7 +42,7 @@ export default function HeroSection() {
               <img 
                 src={logoImage} 
                 alt="Tacos de Los Pinos - Los Mejores Tacos del Barrio" 
-                className="w-full max-w-md h-auto floating"
+                className="w-full max-w-md h-auto"
               />
             </div>
           </div>
@@ -58,9 +58,9 @@ export default function HeroSection() {
               </h2>
             </div>
           
-          <div className="bg-taco-red/20 border-2 border-taco-red rounded-2xl p-6 mb-8 card-hover inline-block">
+          <div className="bg-taco-red/20 border-2 border-taco-red rounded-2xl p-6 mb-8 inline-block">
             <div className="flex items-center space-x-4">
-              <div className="text-4xl floating">🌮</div>
+              <div className="text-4xl">🌮</div>
               <div>
                 <p className="text-taco-yellow font-bold text-xl">LOS MEJORES</p>
                 <p className="text-gray-800 font-display text-2xl">TACOS DEL BARRIO</p>

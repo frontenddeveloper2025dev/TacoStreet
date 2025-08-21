@@ -24,7 +24,7 @@ export default function ContactSection() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           
           {/* Location Card */}
-          <div className="bg-white rounded-2xl p-6 border-2 border-taco-red card-hover text-center shadow-lg">
+          <div className="bg-white rounded-2xl p-6 border-2 border-taco-red text-center shadow-lg">
             <div className="bg-taco-red rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-map-marker-alt text-white text-2xl"></i>
             </div>
@@ -41,7 +41,7 @@ export default function ContactSection() {
           </div>
 
           {/* Hours Card */}
-          <div className="bg-white rounded-2xl p-6 border-2 border-taco-yellow card-hover text-center shadow-lg">
+          <div className="bg-white rounded-2xl p-6 border-2 border-taco-yellow text-center shadow-lg">
             <div className="bg-taco-yellow rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-clock text-taco-black text-2xl"></i>
             </div>
@@ -52,7 +52,7 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Card */}
-          <div className="bg-white rounded-2xl p-6 border-2 border-taco-green card-hover text-center shadow-lg">
+          <div className="bg-white rounded-2xl p-6 border-2 border-taco-green text-center shadow-lg">
             <div className="bg-taco-green rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-phone text-white text-2xl"></i>
             </div>
@@ -70,7 +70,7 @@ export default function ContactSection() {
 
         {/* Call to Action */}
         <div className="text-center mt-12">
-          <div className="bg-gradient-to-r from-taco-red to-red-600 rounded-2xl p-8 max-w-2xl mx-auto card-hover">
+          <div className="bg-gradient-to-r from-taco-red to-red-600 rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="font-display text-3xl text-white mb-4">¿Antojo de tacos?</h3>
             <p className="text-white mb-6 text-lg">¡Ordena ahora y disfruta los mejores tacos del barrio!</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -6,7 +6,7 @@ export default function PromotionSection() {
   };
 
   return (
-    <section id="promociones" className="py-20 bg-gray-100">
+    <section id="promociones" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-display text-4xl md:text-6xl text-taco-red mb-4">
@@ -16,20 +16,20 @@ export default function PromotionSection() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-taco-red to-red-600 rounded-3xl p-8 card-hover border-4 border-taco-yellow">
+          <div className="bg-white rounded-3xl p-8 border-4 border-taco-red shadow-lg">
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <div className="flex-1">
-                <div className="bg-white text-taco-red rounded-full px-6 py-2 inline-block mb-4 font-bold text-lg">
+                <div className="bg-taco-red text-white rounded-xl px-6 py-2 inline-block mb-4 font-bold text-lg">
                   OFERTA ESPECIAL
                 </div>
-                <h3 className="font-display text-5xl md:text-7xl text-white mb-4">2X1</h3>
-                <h4 className="font-display text-2xl md:text-3xl text-taco-yellow mb-6">TACOS AL PASTOR</h4>
-                <p className="text-white text-lg mb-6">
+                <h3 className="font-display text-5xl md:text-7xl text-taco-red mb-4">2X1</h3>
+                <h4 className="font-display text-2xl md:text-3xl text-gray-800 mb-6">TACOS AL PASTOR</h4>
+                <p className="text-gray-700 text-lg mb-6">
                   Compra 2 tacos al pastor y llévate otro completamente GRATIS. ¡La mejor carne de la ciudad!
                 </p>
                 <button 
                   onClick={orderPromotion}
-                  className="bg-white text-taco-red px-8 py-3 rounded-xl font-bold text-lg hover:bg-gray-100 transition-colors"
+                  className="bg-taco-red text-white px-8 py-3 rounded-xl font-bold text-lg hover:bg-red-600 transition-colors"
                 >
                   <i className="fas fa-fire mr-2"></i>¡Quiero Mi 2x1!
                 </button>
@@ -40,7 +40,7 @@ export default function PromotionSection() {
                   <img 
                     src={promoImage} 
                     alt="Promoción 2x1 Tacos al Pastor - Pastor, Bistec, Chorizo, Suadero" 
-                    className="w-full max-w-sm h-auto floating"
+                    className="w-full max-w-sm h-auto"
                   />
                 </div>
               </div>
